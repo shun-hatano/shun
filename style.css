@@ -1,18 +1,21 @@
-*{ margin: 0; padding: 0;}
-.clearfix {
-  clear-after: left;
+
+@charset "UTF-8";
+
+body{
+  font-family: "Hiragino Kaku Gothic PorN","メイリオ",sans-serif;
+  font-size:14px;
+	
 }
 
-/* もしくは、clearプロパティにキーワードの複数指定 */
+
+header{
+  border-top: 8px solid #614226;
+}
+
 .clearfix {
   clear: left after;
 }
 
-body {
-	font-family: "Noto Sans","Hiragino Kaku Gothic Pro","Yu Gothic","Meiryo",sans-serif;
-	font-size: 14px;
-	color: #555;
-}
 #wrapper {
 	width: 900px;
 	height: auto;
