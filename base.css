@@ -140,6 +140,9 @@ footer {
   text-align: center;
   color: #fff;
   background-color: #614226;
+  
+  position:absolute;
+  bottom:0;
 }
 
 
